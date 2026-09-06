@@ -1,34 +1,36 @@
 # Alexis — Blender + Python
 
-Cours pour ados : créer un objet 3D dans Blender, puis l’animer avec un peu de Python (`bpy`).
+Tu crées un objet 3D dans Blender. Ensuite, tu le fais bouger avec un peu de Python (`bpy`).
 
 **Mantra** : voir → toucher → inventer.  
-**Maths** : x / y / z et un angle.  
-**Libre créativité** : chaque étape finit par un défi « à toi de jouer », sans bonne réponse unique.
+**Maths** : x / y / z et un angle. Rien de plus.  
+**Libre créativité** : chaque étape finit par un défi **À toi de jouer**. Il n’y a pas de bonne réponse unique.
 
 ## Étapes
 
-| # | Titre | Blender | Python |
-|---|--------|---------|--------|
-| 1 | Mon objet | Modeler à partir d’un cube (forme + couleur) | Hello Blender — `import bpy`, retrouver l’objet |
-| 2 | Ma scène | Poser l’objet + une lumière | Bouger — `location` |
-| 3 | Ça bouge | 2–3 keyframes manuelles | Tourner / grossir — `rotation_euler`, `scale`, boucle `for` |
-| 4 | À toi de jouer | Exposer 2–3 propriétés pour le script | Faire « danser » l’objet (position + rotation) |
+| # | Titre | Voir (Blender) | Toucher (Python) |
+|---|--------|----------------|------------------|
+| 1 | [Mon objet](etape-01-mon-objet/) | Modeler à partir d’un cube (forme + couleur + nom) | Retrouver l’objet — `import bpy` |
+| 2 | [Bouger](etape-02-bouger/) | Poser l’objet + une lumière | Déplacer — `location` (x / y / z) |
+| 3 | [Tourner-grossir](etape-03-tourner-grossir/) | 2–3 keyframes à la main | Tourner / grossir — `rotation_euler`, `scale`, boucle `for` |
+| 4 | [Danser](etape-04-danser/) | 2–3 propriétés que tu choisis | Faire danser l’objet (position + rotation) |
 
 ## Dossiers
 
-- `etape-01-mon-objet/`
-- `etape-02-bouger/`
-- `etape-03-tourner-grossir/`
-- `etape-04-danser/`
+- [etape-01-mon-objet/](etape-01-mon-objet/) — fiche prête ; script `hello.py` à venir
+- [etape-02-bouger/](etape-02-bouger/) — fiche prête ; script `bouger.py` à venir
+- [etape-03-tourner-grossir/](etape-03-tourner-grossir/) — fiche prête ; script `tourner_grossir.py` à venir
+- [etape-04-danser/](etape-04-danser/) — fiche prête ; script `danser.py` à venir
 
-Chaque dossier aura : une fiche courte (FR), un script `.py` minimal, un défi créatif.
+Les fiches sont là. Les scripts `.py` arrivent avec l’équipe Python. En attendant, tu peux déjà faire toute la partie **Voir** dans Blender.
 
 ## Prérequis
 
-- Blender (récent)
-- Éditeur de scripts intégré (pas besoin d’installer Python à part)
+- Blender (une version récente, ça suffit)
+- L’éditeur de scripts **intégré** à Blender (pas besoin d’installer Python à part)
+
+Ouvre Blender, suis les étapes dans l’ordre, et invente à la fin de chacune.
 
 ---
 
-Repo créé pour le salon **Project Alexis**. Contenu pédagogique à compléter avec l’équipe.
+Repo du salon **Project Alexis**.
