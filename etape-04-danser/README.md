@@ -19,7 +19,7 @@ Ce n’est plus « aller quelque part et s’arrêter » (un seul vecteur). C’
 
 Mini-exemple : `MonObjet` part de son point. `AMPLITUDE = 1` : il s’éloigne d’**1** à gauche, d’**1** vers le ciel, d’**1** à droite… puis il rentre à la maison. Double l’amplitude : même chorégraphie, des pas **deux fois plus grands**.
 
-`VITESSE` plus petit : moins d’images entre les poses → période plus courte → ça danse plus vite. `ANGLE`, lui, c’est la torsion à chaque pose — le « style » par-dessus le rythme.
+`PERIODE` plus petit = moins d’images = période plus courte = danse plus rapide. `ANGLE`, lui, c’est la torsion à chaque pose — le « style » par-dessus le rythme.
 
 ## Voir
 
@@ -40,12 +40,12 @@ Pas besoin de tout utiliser. Deux, c’est déjà une chorégraphie.
 
 Ouvre `danser.py` : Scripting → Open → Run Script.
 
-En haut : `NOM_OBJET`, puis tes boutons `AMPLITUDE`, `VITESSE`, `ANGLE`.
+En haut : `NOM_OBJET`, puis tes boutons `AMPLITUDE`, `PERIODE`, `ANGLE`.
 
 Relie-les à la Notion :
 
 - `AMPLITUDE` — **amplitude** : largeur / hauteur des pas
-- `VITESSE` — **période** : images entre chaque pose (plus petit = période plus courte = plus vite)
+- `PERIODE` — **période** : images entre chaque pose (`PERIODE` plus petit = moins d’images = période plus courte = danse plus rapide)
 - `ANGLE` — torsion à chaque pose (en degrés ; `math.radians` traduit)
 
 Le script combine `location` et `rotation_euler`, pose les keyframes, et ramène l’objet au départ : un cycle d’oscillation.
@@ -60,8 +60,8 @@ En bas du fichier : zone **À toi de jouer**.
 
 D’abord, **sépare** les deux idées de la Notion.
 
-1. Change **seulement** `AMPLITUDE` (laisse `VITESSE` et `ANGLE`). Les pas deviennent plus grands ou plus petits — le rythme, lui, ne change pas.
-2. Remets l’amplitude, change **seulement** `VITESSE`. Même dessin, autre tempo : période plus courte ou plus longue.
+1. Change **seulement** `AMPLITUDE` (laisse `PERIODE` et `ANGLE`). Les pas deviennent plus grands ou plus petits — le rythme, lui, ne change pas.
+2. Remets l’amplitude, change **seulement** `PERIODE`. Même dessin, autre tempo : période plus courte ou plus longue.
 
 Ensuite, invente **ta** chorégraphie. Un rebond. Un tour sur place. Un glissement + une petite rotation. Ce que tu veux.
 
@@ -69,4 +69,4 @@ Il n’y a pas de « bonne » danse. S’il oscille à ta façon, c’est gagné
 
 ## Astuce
 
-Change **un** bouton à la fois (`AMPLITUDE`, `VITESSE` ou `ANGLE`). Tu vois tout de suite si tu as touché l’amplitude, la période, ou juste le style.
+Change **un** bouton à la fois (`AMPLITUDE`, `PERIODE` ou `ANGLE`). Tu vois tout de suite si tu as touché l’amplitude, la période, ou juste le style.
