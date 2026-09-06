@@ -2,15 +2,16 @@
 
 ## Objectif
 
-Faire **danser** ton objet : position + rotation, avec 2 ou 3 variables que **toi** tu choisis.
+Faire **danser** ton objet : `location` + `rotation_euler`, avec 2 ou 3 variables que **toi** tu choisis.
 
 ## Voir
 
-Tu connais déjà les manettes :
+Tu connais déjà les manettes, toutes branchées sur `NOM_OBJET` :
 
-- `location` — où il est (x / y / z)
+- `location` — où il est (x / y / z, Z vers le haut)
 - `rotation_euler` — comment il est tourné
 - `scale` — sa taille
+- les **keyframes** — les poses que Blender relie ensuite
 
 Choisis-en **deux ou trois**. Ce sont tes leviers pour la danse.
 
@@ -18,13 +19,15 @@ Pas besoin de tout utiliser. Deux, c’est déjà une chorégraphie.
 
 ## Toucher
 
-Un fichier `danser.py` arrivera dans ce dossier.
+Ouvre `danser.py` : Scripting → Open → Run Script.
 
-Le script combine `location` et `rotation` dans une petite anim. Tu changes 2 ou 3 nombres en haut du fichier — tes variables — et tu relances.
+En haut : `NOM_OBJET`, puis tes boutons `AMPLITUDE`, `VITESSE`, `ANGLE`. Le script combine `location` et `rotation_euler`, pose les keyframes, et convertit l’angle avec `math.radians` (toi tu restes en degrés).
 
-Regarde. Si ça te plaît, garde. Si ça part dans tous les sens, baisse un peu les valeurs et réessaie.
+Relance, appuie sur Espace. Si ça part dans tous les sens, baisse un peu les valeurs.
 
 C’est normal de tâtonner. C’est comme ça qu’on trouve **sa** danse.
+
+En bas du fichier : zone **À toi de jouer**.
 
 ## À toi de jouer
 
@@ -36,4 +39,4 @@ Il n’y a pas de « bonne » danse. S’il bouge à ta façon, c’est gagné.
 
 ## Astuce
 
-Nomme tes variables comme tu parles : `hauteur`, `vitesse`, `spin`. Demain, tu sauras encore ce qu’elles font.
+Change **un** bouton à la fois (`AMPLITUDE`, `VITESSE` ou `ANGLE`). Tu vois tout de suite ce que ça fait à la danse.
