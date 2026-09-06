@@ -25,13 +25,21 @@ Mini-exemple : `MonObjet` est à `(0, 0, 0)`. Tu lui ajoutes le vecteur `(1, 0, 
 Toujours dans Blender, encore sans code. Quelques minutes. Cette fois, tu ne regardes plus seulement le **point** : tu inventes une **flèche**.
 
 1. Vérifie que l’objet s’appelle comme `NOM_OBJET` (souvent `MonObjet`).
+   **Comment faire dans Blender** : regarde l’Outliner (liste en haut à droite). Le nom doit matcher `NOM_OBJET`.
 2. Pose-le dans une scène simple : un sol, ou juste de l’espace autour.
+   **Comment faire dans Blender** : sol optionnel — `Shift+A` → Mesh → Plane, puis `S` pour l’agrandir.
 3. Ajoute une **lumière**, pour bien voir quand ça bouge.
+   **Comment faire dans Blender** : `Shift+A` → Light → Point (ou Sun). `G` puis `Z` pour la monter.
 4. Note le point de départ (les trois coordonnées).
+   **Comment faire dans Blender** : clique l’objet → `N` → Item → Location.
 5. Bouge-le à la souris, **un axe à la fois**, et demande-toi : *quelle flèche je viens de coller ?*
    - **x** : gauche / droite
    - **y** : avant / arrière
    - **z** : haut / bas (vers le ciel — dans Blender, Z pointe vers le haut)
+
+   **Comment faire dans Blender** : `G` puis `X` / `Y` / `Z`, bouge la souris, clic pour valider (ou tape un nombre puis Entrée). `Ctrl+Z` pour annuler.
+
+   Ce geste **est** le vecteur : une direction + une distance.
 
 Exemple : tu le lèves de 1. Ta flèche, c’est `(0, 0, 1)`. Direction : le ciel. Distance : 1.
 

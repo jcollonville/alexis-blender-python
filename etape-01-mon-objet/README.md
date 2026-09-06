@@ -36,11 +36,17 @@ Si ça ne colle pas, le script affiche un **Oups !** C’est voulu : il n’a pa
 Ensuite, 3 à 5 minutes dans Blender, **sans code** — tu cherches les coordonnées de la Notion :
 
 1. Pars du cube de départ (ou ajoute-en un).
+   **Comment faire dans Blender** : `Shift+A` → Mesh → Cube. (Vue 3D : molette = zoom, clic molette = tourner, `Shift` + clic molette = glisser.)
 2. Change sa forme : étire-le, ajoute un nez, des bras, une bosse… ce que tu veux.
+   **Comment faire dans Blender** : clique l’objet → `Tab` (Edit Mode) → clique des sommets / arêtes / faces → `G` bouger, `S` agrandir, `E` extruder. `Tab` pour revenir en Object Mode.
 3. Donne-lui une couleur que tu aimes.
+   **Comment faire dans Blender** : à droite, Properties → icône sphère (Material Properties) → New → Base Color.
 4. Donne-lui un **nom clair**, sans espace — `MonObjet` si tu veux zéro surprise.
+   **Comment faire dans Blender** : clique l’objet → `F2` (ou double-clic dans l’Outliner, ou Object Properties → Name) → tape `MonObjet` → Entrée.
 5. Clique l’objet. Dans le panneau de droite (ou **N** dans la vue 3D), regarde **Location** : trois nombres x / y / z. C’est le **point** de ton objet.
+   **Comment faire dans Blender** : `N` → Item → Location x / y / z. Ou Properties → icône carré orange (Object Properties) → Transform → Location.
 6. Remets-le à `(0, 0, 0)` une seconde : tu viens de le poser sur l’**origine**. Puis replace-le où tu veux.
+   **Comment faire dans Blender** : mets Location à `0`, `0`, `0`. Ou Object → Clear → Location (`Alt+G`).
 
 Pas besoin que ce soit parfait. Juste reconnaissable, et à toi.
 
