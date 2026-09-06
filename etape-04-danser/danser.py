@@ -36,7 +36,7 @@ else:
     depart_z = obj.location.z
 
     # 4 pas + le retour = 4 intervalles dans une période
-    pas = PERIODE // 4
+    pas = max(1, PERIODE // 4)
 
     scene = bpy.context.scene
     scene.frame_start = 1
