@@ -32,7 +32,14 @@ Tu connais déjà les manettes, toutes branchées sur `NOM_OBJET` :
 
 Choisis-en **deux ou trois**. Ce sont tes leviers pour la danse.
 
-Avant le script, imagine la Notion à la main : un aller à gauche, un retour au centre. C’est déjà une oscillation. L’écart, c’est l’amplitude. Le temps pour revenir, c’est la période.
+Avant le script, une oscillation à la main : aller à gauche, retour au centre.
+
+1. Image `1` : `I` → Location (repos).
+2. Plus loin : `G` puis `X`, puis `I`.
+3. Encore plus loin : reviens au centre, `I`.
+4. `Espace` pour lire.
+
+`PERIODE` dans le script = images entre les poses (pas une « vitesse »).
 
 Pas besoin de tout utiliser. Deux, c’est déjà une chorégraphie.
 

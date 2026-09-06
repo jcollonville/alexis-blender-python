@@ -28,19 +28,19 @@ Le script de cette étape ne déplace rien. Il **lit** ces trois nombres. Avant 
 
 **Avant de lancer le script**, le nom doit matcher. Deux façons, tu choisis :
 
-- soit tu renommes le cube en `MonObjet` (Outliner / liste des objets, ou panneau Objet) ;
+- soit tu renommes le cube en `MonObjet` (`F2` ou Outliner) ;
 - soit tu gardes le nom que tu aimes, et tu changes `NOM_OBJET` en haut de `hello_blender.py` pour qu’il soit **exactement** le même.
 
 Si ça ne colle pas, le script affiche un **Oups !** C’est voulu : il n’a pas trouvé ton objet. Tu corriges le nom, tu relances.
 
 Ensuite, 3 à 5 minutes dans Blender, **sans code** — tu cherches les coordonnées de la Notion :
 
-1. Pars du cube de départ (ou ajoute-en un).
-2. Change sa forme : étire-le, ajoute un nez, des bras, une bosse… ce que tu veux.
-3. Donne-lui une couleur que tu aimes.
-4. Donne-lui un **nom clair**, sans espace — `MonObjet` si tu veux zéro surprise.
-5. Clique l’objet. Dans le panneau de droite (ou **N** dans la vue 3D), regarde **Location** : trois nombres x / y / z. C’est le **point** de ton objet.
-6. Remets-le à `(0, 0, 0)` une seconde : tu viens de le poser sur l’**origine**. Puis replace-le où tu veux.
+1. Cube : `Shift+A` → Mesh → Cube.
+2. Forme : `Tab` → `G` / `S` / `E` (nez, bras, bosse…) → `Tab`.
+3. Couleur : Properties (icône sphère) → New → Base Color.
+4. Nom : `F2` → `MonObjet`.
+5. Point : `N` → Location x / y / z.
+6. Origine une seconde : `0`, `0`, `0` ou `Alt+G`. Puis replace-le.
 
 Pas besoin que ce soit parfait. Juste reconnaissable, et à toi.
 

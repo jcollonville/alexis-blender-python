@@ -38,6 +38,19 @@ Avant de lancer un script : le nom dans Blender et `NOM_OBJET` doivent être **l
 
 Ouvre Blender, suis les étapes dans l’ordre, et invente à la fin de chacune.
 
+## Raccourcis utiles
+
+| Touche | Action |
+|--------|--------|
+| `G` / `R` / `S` | Bouger / tourner / agrandir |
+| `Tab` | Object Mode ↔ Edit Mode |
+| `N` | Sidebar : Location / Rotation / Scale |
+| `Shift+A` | Ajouter (cube, lumière…) |
+| `I` | Image-clé (keyframe) |
+| `Espace` | Lecture / pause |
+| `F2` | Renommer |
+| `Ctrl+Z` | Annuler |
+
 ---
 
 Repo du salon **Project Alexis**.
