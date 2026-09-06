@@ -30,18 +30,16 @@ Tu connais déjà les manettes, toutes branchées sur `NOM_OBJET` :
 - `scale` — sa taille
 - les **keyframes** — les poses que Blender relie ensuite
 
-Choisis-en **deux ou trois** parmi `location` / `rotation_euler` / `scale`. Ce sont tes leviers pour la danse.
+Choisis-en **deux ou trois**. Ce sont tes leviers pour la danse.
 
-Avant le script, imagine la Notion à la main : un aller à gauche, un retour au centre. C’est déjà une oscillation. L’écart, c’est l’amplitude. Le temps pour revenir, c’est la période.
+Avant le script, une oscillation à la main : aller à gauche, retour au centre.
 
-1. Image 1 : pose de repos.
-   **Comment faire dans Blender** : clique l’image `1` dans la Timeline. Objet sélectionné → `I` → Location.
-2. Plus loin : déplace-le à gauche, pose une image-clé.
-   **Comment faire dans Blender** : clique une image plus loin. `G` puis `X`, bouge, clic. `I` → Location. (Ou `N` → Item → change Location / Rotation, survole le champ → `I`.)
-3. Encore plus loin : reviens au centre, pose une image-clé.
-   **Comment faire dans Blender** : même geste. `Espace` pour lire.
+1. Image `1` : `I` → Location (repos).
+2. Plus loin : `G` puis `X`, puis `I`.
+3. Encore plus loin : reviens au centre, `I`.
+4. `Espace` pour lire.
 
-Dans le script, `PERIODE` = le **temps entre les poses** (en images). Ce n’est pas une « vitesse » floue : plus `PERIODE` est petit, moins d’images entre deux poses, plus la danse est rapide.
+`PERIODE` dans le script = images entre les poses (pas une « vitesse »).
 
 Pas besoin de tout utiliser. Deux, c’est déjà une chorégraphie.
 

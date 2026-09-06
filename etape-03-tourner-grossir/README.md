@@ -26,14 +26,10 @@ Mini-exemple : `MonObjet` est à l’échelle `1`, face vers toi. `ANGLE_DEGREES
 
 Avant le code, on sent le mouvement à la main — **angle** d’un côté, **échelle** de l’autre.
 
-1. En bas de l’écran, clique une image de la barre du temps.
-   **Comment faire dans Blender** : la Timeline est en bas. Clique un numéro d’image (frame).
-2. Tourne un peu l’objet (pense en degrés : un petit 30°, un quart de 90°…). Pose une **image-clé** (keyframe).
-   **Comment faire dans Blender** : `R` puis `Z` (tourner autour de la verticale, comme une toupie sur le sol). Tape `90` puis Entrée pour 90°. Objet sélectionné → `I` → Rotation (ou survole les champs Transform → `I`).
-3. Avance de quelques images. Change encore l’angle, **ou** la taille (`scale`). Pose une autre image-clé.
-   **Comment faire dans Blender** : clique une image plus loin. `S` pour l’échelle (tape `1.3` puis Entrée). `I` → Scale. Ou `I` → LocRotScale si tu changes les deux.
-4. Deux ou trois, ça suffit. Appuie sur lecture (Espace).
-   **Comment faire dans Blender** : `Espace` (lecture / pause), ou le bouton Play de la Timeline.
+1. Timeline (en bas) : clique une image.
+2. Tourne : `R` puis `Z` (toupie). Tape `90` + Entrée. `I` → Rotation.
+3. Image plus loin : `S` (ex. `1.3`). `I` → Scale.
+4. Deux ou trois poses. `Espace` pour lire.
 
 Regarde : quand tu tournes, le **point** (les coordonnées) peut rester le même. Quand tu changes l’échelle, l’objet reste au même endroit, mais son volume change. Ce n’est plus un vecteur. C’est un angle, ou un facteur.
 
